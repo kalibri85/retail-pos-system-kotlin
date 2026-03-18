@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="CASH"/>
+
+        <Button
+            android:id="@+id/btnCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="CARD"/>
+
+        <Button
+            android:id="@+id/btnGift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="GIFT CARD"/>
+    <LinearLayout
+        android:id="@+id/giftCardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="8dp">
+
+        <Button android:id="@+id/gc15" android:layout_height="wrap_content" android:text="£15" android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/gc20" android:layout_height="wrap_content" android:text="£20" android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/gc25" android:layout_height="wrap_content" android:text="£25" android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/gc30" android:layout_height="wrap_content" android:text="£30" android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/gc40" android:layout_height="wrap_content" android:text="£40" android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/gc50" android:layout_height="wrap_content" android:text="£50" android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="DISCOUNT %"/>
+
+    <LinearLayout
+        android:id="@+id/discountContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"/>
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10"/>
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15"/>
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="20"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="25"/>
+            <Button
+                android:id="@+id/btn30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="30"/>
+            <Button
+                android:id="@+id/btn50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="50"/>
+            <Button
+                android:id="@+id/btn75"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="75"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
